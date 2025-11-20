@@ -1,0 +1,81 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Visual Studio and related files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider IDE files
+.idea/
+
+# Dotnet Core files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Publish output
+publish/
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+.nuget/
+
+# Resharper files
+_ReSharper.Caches/
+*.DotSettings.user
+
+# User-specific files
+*.rsuser
+*.perspective
+
+# Logs and databases
+*.log
+*.mdf
+*.ldf
+*.ndf
+
+# ASP.NET temporary files
+[Tt]emp/
+*.pidb
+*.svclog
+*.userprefs
+
+# Environment variables and secrets
+.env
+*.env
+
+# Test result files
+TestResults/
+*.trx
+nunit-*.xml
+
+# Miscellaneous
+*.bak
+*.backup
+*.swp
+*~.nib
+*.DS_Store
+
+# Coverage and profiling
+coverage/
+*.coverage
+*.coveragexml
+*.testresults/
+
+# Ignore JetBrains Rider caches
+.idea/
+*.sln.iml
+
+# Ignore node modules if you have a frontend in the project
+node_modules/
+
